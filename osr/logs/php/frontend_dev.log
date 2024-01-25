@@ -1,0 +1,160 @@
+Dec 29 03:28:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 03:28:33 symfony [info] {sfContext} initialization
+Dec 29 03:28:33 symfony [info] {sfController} initialization
+Dec 29 03:28:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 03:28:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 03:43:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 03:43:33 symfony [info] {sfContext} initialization
+Dec 29 03:43:33 symfony [info] {sfController} initialization
+Dec 29 03:43:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 03:43:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 03:58:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 03:58:33 symfony [info] {sfContext} initialization
+Dec 29 03:58:33 symfony [info] {sfController} initialization
+Dec 29 03:58:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 03:58:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 04:13:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 04:13:33 symfony [info] {sfContext} initialization
+Dec 29 04:13:33 symfony [info] {sfController} initialization
+Dec 29 04:13:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 04:13:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 04:28:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 04:28:33 symfony [info] {sfContext} initialization
+Dec 29 04:28:33 symfony [info] {sfController} initialization
+Dec 29 04:28:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 04:28:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 04:43:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 04:43:33 symfony [info] {sfContext} initialization
+Dec 29 04:43:33 symfony [info] {sfController} initialization
+Dec 29 04:43:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 04:43:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 04:58:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 04:58:33 symfony [info] {sfContext} initialization
+Dec 29 04:58:33 symfony [info] {sfController} initialization
+Dec 29 04:58:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 04:58:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 05:13:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 05:13:33 symfony [info] {sfContext} initialization
+Dec 29 05:13:33 symfony [info] {sfController} initialization
+Dec 29 05:13:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 05:13:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 05:28:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 05:28:33 symfony [info] {sfContext} initialization
+Dec 29 05:28:33 symfony [info] {sfController} initialization
+Dec 29 05:28:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 05:28:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 05:43:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 05:43:33 symfony [info] {sfContext} initialization
+Dec 29 05:43:33 symfony [info] {sfController} initialization
+Dec 29 05:43:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 05:43:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 05:58:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 05:58:33 symfony [info] {sfContext} initialization
+Dec 29 05:58:33 symfony [info] {sfController} initialization
+Dec 29 05:58:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 05:58:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 06:13:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 06:13:33 symfony [info] {sfContext} initialization
+Dec 29 06:13:33 symfony [info] {sfController} initialization
+Dec 29 06:13:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 06:13:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 06:28:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 06:28:33 symfony [info] {sfContext} initialization
+Dec 29 06:28:33 symfony [info] {sfController} initialization
+Dec 29 06:28:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 06:28:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 06:43:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 06:43:33 symfony [info] {sfContext} initialization
+Dec 29 06:43:33 symfony [info] {sfController} initialization
+Dec 29 06:43:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 06:43:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 06:58:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 06:58:33 symfony [info] {sfContext} initialization
+Dec 29 06:58:33 symfony [info] {sfController} initialization
+Dec 29 06:58:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 06:58:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 07:13:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 07:13:33 symfony [info] {sfContext} initialization
+Dec 29 07:13:33 symfony [info] {sfController} initialization
+Dec 29 07:13:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 07:13:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 07:28:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 07:28:33 symfony [info] {sfContext} initialization
+Dec 29 07:28:33 symfony [info] {sfController} initialization
+Dec 29 07:28:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 07:28:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 07:43:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 07:43:33 symfony [info] {sfContext} initialization
+Dec 29 07:43:33 symfony [info] {sfController} initialization
+Dec 29 07:43:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 07:43:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 07:58:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 07:58:33 symfony [info] {sfContext} initialization
+Dec 29 07:58:33 symfony [info] {sfController} initialization
+Dec 29 07:58:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 07:58:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 08:13:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 08:13:33 symfony [info] {sfContext} initialization
+Dec 29 08:13:33 symfony [info] {sfController} initialization
+Dec 29 08:13:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 08:13:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 08:28:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 08:28:33 symfony [info] {sfContext} initialization
+Dec 29 08:28:33 symfony [info] {sfController} initialization
+Dec 29 08:28:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 08:28:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 08:43:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 08:43:33 symfony [info] {sfContext} initialization
+Dec 29 08:43:33 symfony [info] {sfController} initialization
+Dec 29 08:43:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 08:43:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 08:58:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 08:58:33 symfony [info] {sfContext} initialization
+Dec 29 08:58:33 symfony [info] {sfController} initialization
+Dec 29 08:58:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 08:58:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 09:13:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 09:13:33 symfony [info] {sfContext} initialization
+Dec 29 09:13:33 symfony [info] {sfController} initialization
+Dec 29 09:13:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 09:13:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 09:28:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 09:28:33 symfony [info] {sfContext} initialization
+Dec 29 09:28:33 symfony [info] {sfController} initialization
+Dec 29 09:28:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 09:28:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 09:43:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 09:43:33 symfony [info] {sfContext} initialization
+Dec 29 09:43:33 symfony [info] {sfController} initialization
+Dec 29 09:43:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 09:43:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 09:58:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 09:58:33 symfony [info] {sfContext} initialization
+Dec 29 09:58:33 symfony [info] {sfController} initialization
+Dec 29 09:58:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 09:58:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 10:13:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 10:13:33 symfony [info] {sfContext} initialization
+Dec 29 10:13:33 symfony [info] {sfController} initialization
+Dec 29 10:13:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 10:13:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 10:28:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 10:28:33 symfony [info] {sfContext} initialization
+Dec 29 10:28:33 symfony [info] {sfController} initialization
+Dec 29 10:28:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 10:28:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 10:43:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 10:43:33 symfony [info] {sfContext} initialization
+Dec 29 10:43:33 symfony [info] {sfController} initialization
+Dec 29 10:43:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 10:43:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 10:58:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 10:58:33 symfony [info] {sfContext} initialization
+Dec 29 10:58:33 symfony [info] {sfController} initialization
+Dec 29 10:58:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 10:58:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)
+Dec 29 11:13:33 symfony [info] {sfRouting} connect "/js/:target_module/:target_action/*" (".pjs" suffix)
+Dec 29 11:13:33 symfony [info] {sfContext} initialization
+Dec 29 11:13:33 symfony [info] {sfController} initialization
+Dec 29 11:13:33 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 29 11:13:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'connexion',)

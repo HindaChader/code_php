@@ -1,0 +1,15 @@
+20231205-190121       [info]  Using SFTP >> /logs/apache/osr/logs_VTOM/ftp_OSR_OASICE_20231205-190121.log
+echo 20231205-190121 [info] Using SFTP
+20231205-190121       [info]  Using login : osr_oasice
+20231205-190121       [info]  Using login : osr_oasice
+20231205-190121	[info]	Using adress : h2l1oas1002x.dc.infra-grdf.com
+20231205-190121	[info]	Using adress : h2l1oas1002x.dc.infra-grdf.com
+20231205-190121	[info]	Getting all files from : ../flux_OSR/OASICE/sortant
+20231205-190121	[info]	Getting all files from : ../flux_OSR/OASICE/sortant
+20231205-190121	[info]	Putting all file to : in
+20231205-190121	[info]	Putting all file to : in
+Connected to h2l1oas1002x.dc.infra-grdf.com.
+20231205-190121	[info]	le transfert ftp du fichier OSR_OASICE_2023_12_05.txt s'est bien déroulé
+20231205-190121	[info]	le transfert ftp du fichier OSR_OASICE_2023_12_05.txt s'est bien déroulé
+20231205-190121	[info]	archivage de OSR_OASICE_2023_12_05.txt dans /appli/apache/shell/traitements_OSR/../flux_OSR/OASICE/archive
+20231205-190121	[info]	archivage de OSR_OASICE_2023_12_05.txt dans /appli/apache/shell/traitements_OSR/../flux_OSR/OASICE/archive

@@ -1,0 +1,13 @@
+12/11/23 05:30:00  [étape]	Ini du traitement
+12/11/23 05:30:01  [étape]	Supprime les fichiers de plus de 7 jours 
+12/11/23 05:30:01  [étape]	Comprobation d'espace disque
+12/11/23 05:30:51  [étape]	le fichier SQL a été joué sans erreurs
+12/11/23 05:31:09  [étape]	le spool SQL a été formaté (/appli/apache/shell/traitements_OSR/export_quotidien/_tmp/Export_Affaires_20231211_RG-1-3_Quotid.csv)
+12/11/23 05:31:53  [étape]	le fichier SQL a été joué sans erreurs
+12/11/23 05:32:05  [étape]	le spool SQL a été formaté (/appli/apache/shell/traitements_OSR/export_quotidien/_tmp/Export_Affaires_20231211_RG-4-8_Quotid.csv)
+12/11/23 05:32:27  [étape]	fichier(s) compressé(s) dans /appli/apache/shell/traitements_OSR/export_quotidien/_tmp/Export_Affaires_20231211.zip
+12/11/23 05:32:27  [étape]	Debut de la connexion SFTP
+12/11/23 05:32:30  [étape]	Succes du Transfert FTP des fichiers : Export_Affaires_20231211.zip
+12/11/23 05:32:30  [étape]	Du repertoire : 
+12/11/23 05:32:30  [étape]	Vers le repertoire : /RACCOPILOT/ot
+12/11/23 05:32:30  [étape]	Fin du traitement

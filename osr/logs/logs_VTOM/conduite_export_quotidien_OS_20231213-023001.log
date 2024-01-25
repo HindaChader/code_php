@@ -1,0 +1,25 @@
+12/13/23 02:30:01  [étape]	Ini du traitement
+12/13/23 02:30:01  [étape]	Supprime les fichiers de plus de 7 jours 
+12/13/23 02:30:01  [étape]	Comprobation d'espace disque
+12/13/23 02:30:15  [étape]	le fichier SQL a été joué sans erreurs
+12/13/23 02:30:18  [étape]	le spool SQL a été formaté (/appli/apache/shell/traitements_OSR/export_quotidien/_tmp/Export_Affaires_OS_20231213_RG-01_Quotid.csv)
+12/13/23 02:30:37  [étape]	le fichier SQL a été joué sans erreurs
+12/13/23 02:30:40  [étape]	le spool SQL a été formaté (/appli/apache/shell/traitements_OSR/export_quotidien/_tmp/Export_Affaires_OS_20231213_RG-02_Quotid.csv)
+12/13/23 02:30:54  [étape]	le fichier SQL a été joué sans erreurs
+12/13/23 02:30:56  [étape]	le spool SQL a été formaté (/appli/apache/shell/traitements_OSR/export_quotidien/_tmp/Export_Affaires_OS_20231213_RG-03_Quotid.csv)
+12/13/23 02:31:09  [étape]	le fichier SQL a été joué sans erreurs
+12/13/23 02:31:11  [étape]	le spool SQL a été formaté (/appli/apache/shell/traitements_OSR/export_quotidien/_tmp/Export_Affaires_OS_20231213_RG-04_Quotid.csv)
+12/13/23 02:31:14  [étape]	le fichier SQL a été joué sans erreurs
+12/13/23 02:31:14  [étape]	le spool SQL a été formaté (/appli/apache/shell/traitements_OSR/export_quotidien/_tmp/Export_Affaires_OS_20231213_RG-05_Quotid.csv)
+12/13/23 02:31:25  [étape]	le fichier SQL a été joué sans erreurs
+12/13/23 02:31:27  [étape]	le spool SQL a été formaté (/appli/apache/shell/traitements_OSR/export_quotidien/_tmp/Export_Affaires_OS_20231213_RG-06_Quotid.csv)
+12/13/23 02:31:39  [étape]	le fichier SQL a été joué sans erreurs
+12/13/23 02:31:41  [étape]	le spool SQL a été formaté (/appli/apache/shell/traitements_OSR/export_quotidien/_tmp/Export_Affaires_OS_20231213_RG-07_Quotid.csv)
+12/13/23 02:31:44  [étape]	le fichier SQL a été joué sans erreurs
+12/13/23 02:31:44  [étape]	le spool SQL a été formaté (/appli/apache/shell/traitements_OSR/export_quotidien/_tmp/Export_Affaires_OS_20231213_RG-08_Quotid.csv)
+12/13/23 02:31:52  [étape]	fichier(s) compressé(s) dans /appli/apache/shell/traitements_OSR/export_quotidien/_tmp/Export_Affaires_OS_20231213.zip
+12/13/23 02:31:52  [étape]	Debut de la connexion SFTP
+12/13/23 02:31:54  [étape]	Succes du Transfert FTP des fichiers : Export_Affaires_OS_20231213.zip
+12/13/23 02:31:54  [étape]	Du repertoire : 
+12/13/23 02:31:54  [étape]	Vers le repertoire : /RACCOPILOT/ot
+12/13/23 02:31:54  [étape]	Fin du traitement

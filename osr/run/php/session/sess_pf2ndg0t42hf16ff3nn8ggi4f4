@@ -1,0 +1,16 @@
+symfony/user/sfUser/lastRequest|i:1657546065;symfony/user/sfUser/authenticated|b:0;symfony/user/sfUser/credentials|a:0:{}symfony/user/sfUser/attributes|a:1:{s:30:"symfony/user/sfUser/attributes";a:8:{s:13:"environnement";s:4:"PROD";s:20:"activationDateSystem";s:1:"0";s:10:"dateSystem";N;s:31:"applicationContext_lock_version";i:74;s:14:"messageAccueil";s:1326:"<!--<div align="center" style="border:3px solid red;padding:1%"><font color="red" size="2"><div align="center"><b><u>OPERATION PROGRAMMEE:</u></b></font></font><br />
+<font size="2" color="red"><b>Une opération technique importante doit avoir lieu ce mercredi 28/10 de 12h10 à 12h20.<br />
+Elle entrainera une interruption du service.<font></div></div>--><br />
+<br />
+<div><br />
+<basefont size="2" color="Blue"><br />
+<B><U>INFORMATION : </U></b>Fichiers de l'aide OSR : <a href='https://osr-distributeur.grdf.net/docs/osr_aide/osr_documents_aide.html' target='BLANK'>CLIQUER ICI</a><br />
+<B><U>25/10/2019 : Fichiers hebdomadaires</B></U> : <a href='https://osr-distributeur.grdf.net/docs/osr_hebdo/osr_hebdo.html' target='BLANK'>CLIQUER ICI</a><br />
+- Les fichiers hebdos Affaires et OS sont disponibles via le lien ci-dessus (sauf date Consultation Fiche de Synthèse )<br />
+<B><U>28/07/2017 : Date de mise en service Omega</B></U> <br />
+</basefont><br />
+<B><U>- Archivage -</B></U> : <a href='https://osr-distributeur.grdf.net/docs/osr_hebdo/osr_hebdo.html' target='BLANK'>CLIQUER ICI</a><br />
+- Affaires et OS sur des affaires archivées avant PER2019.<br />
+- Affaires et OS sur des affaires archivées le 20/01/2014.<br />
+- Affaires et OS sur des affaires archivées le 05/08/2013.<br />
+</div>";s:17:"jourAlerteRelance";d:7;s:16:"delaiAffectation";d:2;s:4:"time";i:1657546065;}}symfony/user/sfUser/culture|s:5:"en_US";

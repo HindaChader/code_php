@@ -1,0 +1,9 @@
+SPPOSR=
+(DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = sd02-pp-sca01.dc.infra-grdf.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = SPPOSR)
+    )
+  )
+

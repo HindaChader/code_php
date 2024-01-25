@@ -1,0 +1,11 @@
+20231027-190006       [info]  Using SFTP >> /logs/apache/osr/logs_VTOM/ftp_OSR_SIAG.sh.sh_20231027-190006.log
+20231027-190006       [info]  Using login : OSR
+20231027-190006	[info]	Using port : 2222
+20231027-190006	[info]	Using adress : be-echange-sftp-int-ppr.grdf.fr
+20231027-190006	[info]	Getting all files from : ../flux_OSR/SIAG/sortant
+20231027-190006	[info]	Putting all file to : SIAG/ot
+Hello OSR.
+You are connected to Pr√© Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+20231027-190007	[info]	le transfert ftp du fichier OSR_SIAG_Aff_20231027_03836.csv s'est bien dâroulâ
+20231027-190007	[info]	archivage de OSR_SIAG_Aff_20231027_03836.csv dans /appli/apache/shell/traitements_OSR/../flux_OSR/SIAG/archive

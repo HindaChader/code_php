@@ -1,0 +1,9 @@
+HC1OSR_PPOSR=
+(DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = o4h1mut-gs-scan.in.grdf.net)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = HC1OSR_PPOSR)
+    )
+  )
+

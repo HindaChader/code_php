@@ -1,0 +1,719 @@
+[29122023-08:36:18][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-08:36:18][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-08:36:18][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '47710');
+[29122023-08:36:18][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:36:18][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-08:36:18][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 47710
+[29122023-08:36:18][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('47710',sysdate,'','0');
+[29122023-08:36:19][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:36:19][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-08:36:19][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-08:36:19][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-08:36:20][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:36:20][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-08:36:20][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-08:36:20][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-08:36:20][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:36:20][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-08:36:20][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-08:36:20][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 47710
+[29122023-08:36:20][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:36:20][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-08:36:20][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-08:41:16][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-08:41:16][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-08:41:16][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '53903');
+[29122023-08:41:16][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:41:16][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-08:41:16][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 53903
+[29122023-08:41:16][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('53903',sysdate,'','0');
+[29122023-08:41:17][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:41:17][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-08:41:17][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-08:41:17][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-08:41:17][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:41:17][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-08:41:17][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-08:41:17][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-08:41:18][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:41:18][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-08:41:18][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-08:41:18][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 53903
+[29122023-08:41:18][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:41:18][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-08:41:18][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-08:46:16][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-08:46:16][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-08:46:16][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '59771');
+[29122023-08:46:16][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:46:16][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-08:46:16][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 59771
+[29122023-08:46:16][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('59771',sysdate,'','0');
+[29122023-08:46:17][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:46:17][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-08:46:17][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-08:46:17][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-08:46:17][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:46:17][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-08:46:17][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-08:46:17][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-08:46:17][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:46:17][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-08:46:17][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-08:46:17][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 59771
+[29122023-08:46:17][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:46:17][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-08:46:17][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-08:51:16][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-08:51:16][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-08:51:16][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '65267');
+[29122023-08:51:17][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:51:17][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-08:51:17][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 65267
+[29122023-08:51:17][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('65267',sysdate,'','0');
+[29122023-08:51:17][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:51:17][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-08:51:17][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-08:51:17][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-08:51:17][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:51:17][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-08:51:17][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-08:51:17][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-08:51:18][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:51:18][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-08:51:18][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-08:51:18][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 65267
+[29122023-08:51:18][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:51:18][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-08:51:18][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-08:56:16][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-08:56:16][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-08:56:16][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '70760');
+[29122023-08:56:16][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:56:16][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-08:56:16][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 70760
+[29122023-08:56:16][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('70760',sysdate,'','0');
+[29122023-08:56:17][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:56:17][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-08:56:17][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-08:56:17][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-08:56:17][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:56:17][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-08:56:17][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-08:56:17][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-08:56:17][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:56:17][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-08:56:17][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-08:56:17][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 70760
+[29122023-08:56:18][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-08:56:18][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-08:56:18][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-09:01:18][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-09:01:18][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-09:01:18][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '76275');
+[29122023-09:01:19][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:01:19][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-09:01:19][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 76275
+[29122023-09:01:19][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('76275',sysdate,'','0');
+[29122023-09:01:19][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:01:19][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-09:01:19][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-09:01:19][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-09:01:20][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:01:20][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-09:01:20][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-09:01:20][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-09:01:21][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:01:21][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-09:01:21][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-09:01:21][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 76275
+[29122023-09:01:21][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:01:21][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-09:01:21][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-09:06:18][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-09:06:18][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-09:06:18][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '82034');
+[29122023-09:06:18][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:06:18][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-09:06:18][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 82034
+[29122023-09:06:18][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('82034',sysdate,'','0');
+[29122023-09:06:18][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:06:18][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-09:06:18][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-09:06:18][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-09:06:19][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:06:19][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-09:06:19][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-09:06:19][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-09:06:20][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:06:20][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-09:06:20][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-09:06:20][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 82034
+[29122023-09:06:20][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:06:20][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-09:06:20][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-09:11:17][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-09:11:17][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-09:11:17][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '87535');
+[29122023-09:11:17][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:11:17][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-09:11:17][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 87535
+[29122023-09:11:17][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('87535',sysdate,'','0');
+[29122023-09:11:17][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:11:17][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-09:11:17][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-09:11:17][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-09:11:18][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:11:18][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-09:11:18][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-09:11:18][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-09:11:18][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:11:18][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-09:11:18][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-09:11:18][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 87535
+[29122023-09:11:19][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:11:19][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-09:11:19][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-09:16:16][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-09:16:16][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-09:16:16][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '93725');
+[29122023-09:16:17][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:16:17][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-09:16:17][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 93725
+[29122023-09:16:17][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('93725',sysdate,'','0');
+[29122023-09:16:17][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:16:17][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-09:16:17][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-09:16:17][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-09:16:18][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:16:18][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-09:16:18][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-09:16:18][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-09:16:20][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:16:20][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-09:16:20][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-09:16:20][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 93725
+[29122023-09:16:20][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:16:20][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-09:16:20][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-09:21:18][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-09:21:18][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-09:21:18][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '99223');
+[29122023-09:21:18][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:21:18][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-09:21:18][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 99223
+[29122023-09:21:18][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('99223',sysdate,'','0');
+[29122023-09:21:18][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:21:19][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-09:21:19][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-09:21:19][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-09:21:19][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:21:19][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-09:21:19][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-09:21:19][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-09:21:19][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:21:19][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-09:21:19][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-09:21:19][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 99223
+[29122023-09:21:20][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:21:20][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-09:21:20][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-09:26:18][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-09:26:18][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-09:26:18][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '104716');
+[29122023-09:26:19][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:26:19][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-09:26:19][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 104716
+[29122023-09:26:19][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('104716',sysdate,'','0');
+[29122023-09:26:19][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:26:19][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-09:26:19][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-09:26:19][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-09:26:19][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:26:19][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-09:26:19][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-09:26:19][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-09:26:20][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:26:20][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-09:26:20][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-09:26:20][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 104716
+[29122023-09:26:20][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:26:20][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-09:26:20][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-09:31:19][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-09:31:19][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-09:31:19][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '110215');
+[29122023-09:31:19][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:31:19][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-09:31:19][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 110215
+[29122023-09:31:19][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('110215',sysdate,'','0');
+[29122023-09:31:19][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:31:19][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-09:31:19][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-09:31:19][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-09:31:21][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:31:21][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-09:31:21][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-09:31:21][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-09:31:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:31:23][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-09:31:23][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-09:31:23][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 110215
+[29122023-09:31:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:31:23][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-09:31:23][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-09:36:22][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-09:36:22][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-09:36:22][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '115975');
+[29122023-09:36:22][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:36:22][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-09:36:22][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 115975
+[29122023-09:36:22][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('115975',sysdate,'','0');
+[29122023-09:36:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:36:23][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-09:36:23][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-09:36:23][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-09:36:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:36:24][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-09:36:24][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-09:36:24][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-09:36:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:36:24][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-09:36:24][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-09:36:24][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 115975
+[29122023-09:36:25][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:36:25][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-09:36:25][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-09:41:18][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-09:41:18][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-09:41:18][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '121475');
+[29122023-09:41:19][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:41:19][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-09:41:19][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 121475
+[29122023-09:41:19][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('121475',sysdate,'','0');
+[29122023-09:41:19][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:41:19][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-09:41:19][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-09:41:19][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-09:41:20][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:41:20][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-09:41:20][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-09:41:20][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-09:41:21][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:41:21][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-09:41:21][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-09:41:21][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 121475
+[29122023-09:41:21][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:41:21][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-09:41:21][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-09:46:19][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-09:46:19][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-09:46:19][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '127017');
+[29122023-09:46:19][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:46:19][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-09:46:19][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 127017
+[29122023-09:46:19][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('127017',sysdate,'','0');
+[29122023-09:46:20][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:46:20][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-09:46:20][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-09:46:20][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-09:46:21][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:46:21][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-09:46:21][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-09:46:21][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-09:46:22][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:46:22][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-09:46:22][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-09:46:22][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 127017
+[29122023-09:46:22][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:46:22][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-09:46:22][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-09:51:20][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-09:51:20][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-09:51:20][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '2648');
+[29122023-09:51:21][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:51:21][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-09:51:21][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 2648
+[29122023-09:51:21][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('2648',sysdate,'','0');
+[29122023-09:51:21][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:51:21][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-09:51:21][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-09:51:21][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-09:51:22][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:51:22][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-09:51:22][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-09:51:22][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-09:51:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:51:23][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-09:51:23][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-09:51:23][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 2648
+[29122023-09:51:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:51:23][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-09:51:23][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-09:56:20][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-09:56:20][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-09:56:20][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '8152');
+[29122023-09:56:20][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:56:20][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-09:56:20][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 8152
+[29122023-09:56:20][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('8152',sysdate,'','0');
+[29122023-09:56:20][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:56:20][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-09:56:20][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-09:56:20][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-09:56:21][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:56:21][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-09:56:21][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-09:56:21][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-09:56:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:56:23][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-09:56:23][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-09:56:23][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 8152
+[29122023-09:56:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-09:56:23][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-09:56:23][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-10:01:21][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-10:01:21][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-10:01:21][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '13671');
+[29122023-10:01:22][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:01:22][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-10:01:22][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 13671
+[29122023-10:01:22][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('13671',sysdate,'','0');
+[29122023-10:01:22][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:01:22][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-10:01:22][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-10:01:22][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-10:01:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:01:24][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-10:01:24][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-10:01:24][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-10:01:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:01:24][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-10:01:24][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-10:01:24][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 13671
+[29122023-10:01:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:01:24][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-10:01:24][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-10:06:23][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-10:06:23][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-10:06:23][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '19805');
+[29122023-10:06:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:06:24][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-10:06:24][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 19805
+[29122023-10:06:24][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('19805',sysdate,'','0');
+[29122023-10:06:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:06:24][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-10:06:24][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-10:06:24][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-10:06:26][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:06:26][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-10:06:26][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-10:06:26][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-10:06:27][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:06:27][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-10:06:27][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-10:06:27][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 19805
+[29122023-10:06:27][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:06:27][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-10:06:27][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-10:11:21][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-10:11:21][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-10:11:21][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '25305');
+[29122023-10:11:21][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:11:21][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-10:11:21][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 25305
+[29122023-10:11:21][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('25305',sysdate,'','0');
+[29122023-10:11:21][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:11:21][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-10:11:21][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-10:11:21][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-10:11:22][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:11:22][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-10:11:22][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-10:11:22][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-10:11:22][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:11:22][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-10:11:22][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-10:11:22][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 25305
+[29122023-10:11:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:11:23][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-10:11:23][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-10:16:21][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-10:16:21][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-10:16:21][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '30800');
+[29122023-10:16:22][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:16:22][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-10:16:22][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 30800
+[29122023-10:16:22][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('30800',sysdate,'','0');
+[29122023-10:16:22][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:16:22][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-10:16:22][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-10:16:22][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-10:16:22][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:16:22][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-10:16:22][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-10:16:22][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-10:16:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:16:23][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-10:16:23][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-10:16:23][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 30800
+[29122023-10:16:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:16:23][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-10:16:23][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-10:21:23][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-10:21:23][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-10:21:23][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '36916');
+[29122023-10:21:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:21:23][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-10:21:23][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 36916
+[29122023-10:21:23][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('36916',sysdate,'','0');
+[29122023-10:21:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:21:23][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-10:21:23][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-10:21:23][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-10:21:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:21:24][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-10:21:24][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-10:21:24][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-10:21:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:21:24][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-10:21:24][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-10:21:24][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 36916
+[29122023-10:21:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:21:24][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-10:21:24][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-10:26:23][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-10:26:23][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-10:26:23][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '42491');
+[29122023-10:26:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:26:23][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-10:26:23][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 42491
+[29122023-10:26:23][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('42491',sysdate,'','0');
+[29122023-10:26:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:26:23][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-10:26:23][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-10:26:23][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-10:26:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:26:24][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-10:26:24][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-10:26:24][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-10:26:25][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:26:25][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-10:26:25][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-10:26:25][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 42491
+[29122023-10:26:25][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:26:25][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-10:26:25][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-10:31:21][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-10:31:21][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-10:31:21][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '47989');
+[29122023-10:31:21][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:31:21][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-10:31:21][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 47989
+[29122023-10:31:21][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('47989',sysdate,'','0');
+[29122023-10:31:21][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:31:21][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-10:31:21][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-10:31:21][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-10:31:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:31:23][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-10:31:23][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-10:31:23][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-10:31:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:31:23][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-10:31:23][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-10:31:23][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 47989
+[29122023-10:31:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:31:24][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-10:31:24][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-10:36:22][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-10:36:22][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-10:36:22][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '53751');
+[29122023-10:36:22][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:36:22][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-10:36:22][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 53751
+[29122023-10:36:22][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('53751',sysdate,'','0');
+[29122023-10:36:22][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:36:22][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-10:36:23][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-10:36:23][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-10:36:23][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:36:23][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-10:36:23][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-10:36:23][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-10:36:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:36:24][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-10:36:24][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-10:36:24][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 53751
+[29122023-10:36:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:36:24][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-10:36:24][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-10:41:23][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-10:41:23][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-10:41:23][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '59254');
+[29122023-10:41:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:41:24][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-10:41:24][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 59254
+[29122023-10:41:24][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('59254',sysdate,'','0');
+[29122023-10:41:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:41:24][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-10:41:24][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-10:41:24][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-10:41:25][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:41:25][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-10:41:25][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-10:41:25][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-10:41:25][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:41:25][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-10:41:25][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-10:41:25][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 59254
+[29122023-10:41:25][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:41:25][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-10:41:25][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-10:46:24][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-10:46:24][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-10:46:24][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '64749');
+[29122023-10:46:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:46:24][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-10:46:24][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 64749
+[29122023-10:46:24][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('64749',sysdate,'','0');
+[29122023-10:46:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:46:24][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-10:46:24][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-10:46:24][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-10:46:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:46:24][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-10:46:24][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-10:46:24][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-10:46:27][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:46:27][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-10:46:27][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-10:46:27][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 64749
+[29122023-10:46:27][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:46:27][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-10:46:27][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-10:51:23][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-10:51:23][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-10:51:23][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '70245');
+[29122023-10:51:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:51:24][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-10:51:24][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 70245
+[29122023-10:51:24][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('70245',sysdate,'','0');
+[29122023-10:51:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:51:24][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-10:51:24][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-10:51:24][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-10:51:26][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:51:26][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-10:51:26][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-10:51:26][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-10:51:26][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:51:26][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-10:51:26][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-10:51:26][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 70245
+[29122023-10:51:26][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:51:26][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-10:51:26][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-10:56:23][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-10:56:23][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-10:56:23][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '76432');
+[29122023-10:56:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:56:24][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-10:56:24][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 76432
+[29122023-10:56:24][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('76432',sysdate,'','0');
+[29122023-10:56:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:56:24][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-10:56:24][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-10:56:24][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-10:56:25][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:56:25][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-10:56:25][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-10:56:25][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-10:56:25][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:56:25][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-10:56:25][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-10:56:25][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 76432
+[29122023-10:56:25][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-10:56:25][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-10:56:25][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-11:01:25][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-11:01:25][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-11:01:25][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '81946');
+[29122023-11:01:25][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:01:25][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-11:01:25][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 81946
+[29122023-11:01:25][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('81946',sysdate,'','0');
+[29122023-11:01:26][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:01:26][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-11:01:26][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-11:01:26][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-11:01:27][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:01:27][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-11:01:27][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-11:01:27][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-11:01:27][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:01:27][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-11:01:27][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-11:01:27][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 81946
+[29122023-11:01:28][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:01:28][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-11:01:28][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-11:06:25][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-11:06:25][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-11:06:25][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '87704');
+[29122023-11:06:26][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:06:26][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-11:06:26][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 87704
+[29122023-11:06:26][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('87704',sysdate,'','0');
+[29122023-11:06:26][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:06:26][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-11:06:26][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-11:06:26][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-11:06:28][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:06:28][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-11:06:28][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-11:06:28][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-11:06:28][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:06:28][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-11:06:28][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-11:06:28][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 87704
+[29122023-11:06:28][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:06:28][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-11:06:28][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-11:11:26][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-11:11:26][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-11:11:26][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '93758');
+[29122023-11:11:26][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:11:26][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-11:11:26][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 93758
+[29122023-11:11:26][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('93758',sysdate,'','0');
+[29122023-11:11:26][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:11:26][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-11:11:26][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-11:11:26][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-11:11:28][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:11:28][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-11:11:28][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-11:11:28][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;
+[29122023-11:11:28][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:11:28][DEBUG][osr_notification_send.sh] FIN Envoie des notifications de la pile
+[29122023-11:11:28][INFO][osr_notification_send.sh] Il y a aucune notification a envoyer
+[29122023-11:11:28][INFO][osr_notification_send.sh] Mise a jour NOTIF_SEND_MONITORING pour le script 93758
+[29122023-11:11:28][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:11:28][DEBUG][osr_notification_send.sh] FIN Mise a jour NOTIF_SEND_MONITORING
+[29122023-11:11:28][INFO][osr_notification_send.sh] FIN DU TRAITEMENT
+[29122023-11:16:23][INFO][osr_notification_send.sh] DEBUT TRAITEMENT
+[29122023-11:16:23][INFO][osr_notification_send.sh] recuperation du pid du dernier script d'envoi de mail
+[29122023-11:16:23][DEBUG][osr_notification_send.sh] Requete executeee :SELECT TRTMT_PID || ';' || TRTMT_DATE_END || ';' || case when (TRTMT_DATE_BEGIN + INTERVAL '30' MINUTE ) <= to_date(to_char(sysdate, 'DD/MM/YYYY HH24:MI:SS'),'DD/MM/YYYY HH24:MI:SS') then 1 else 0 end FROM NOTIF_SEND_MONITORING WHERE CANCELLED='0' and trtmt_date_begin = (select max(trtmt_date_begin) from notif_send_monitoring WHERE CANCELLED='0' and TRTMT_PID <> '99257');
+[29122023-11:16:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:16:24][DEBUG][osr_notification_send.sh] FIN recuperation pid
+[29122023-11:16:24][INFO][osr_notification_send.sh] Insertion in notif_monitoring pid = 99257
+[29122023-11:16:24][DEBUG][osr_notification_send.sh] Insertion in notif_monitoring Requete executee: INSERT INTO NOTIF_SEND_MONITORING VALUES ('99257',sysdate,'','0');
+[29122023-11:16:24][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:16:24][DEBUG][osr_notification_send.sh] FIN Insertion
+[29122023-11:16:24][INFO][osr_notification_send.sh] Mise a jour des notifications obsoletes
+[29122023-11:16:24][DEBUG][osr_notification_send.sh] Requete executee: UPDATE NOTIF_PIPE SET notif_send_obsolete='1' WHERE NOTIF_ORIGINE='OSR' AND notif_send_flag='0' AND notif_send_obsolete='0' and notif_send_date is null and SYSDATE > notif_prev_date+24/24;
+[29122023-11:16:25][DEBUG][osr_notification_send.sh] Script SQL terminé sans erreur
+[29122023-11:16:25][DEBUG][osr_notification_send.sh] FIN Mise a jour des notifications obsoletes
+[29122023-11:16:25][INFO][osr_notification_send.sh] Envoie des notifications de la pile
+[29122023-11:16:25][DEBUG][osr_notification_send.sh] Requete executee: SELECT REPLACE ( NOTIF_DEST||';'||MODEL_CODE||';'||NOTIF_OBJECT||';'||to_char(NOTIF_PREV_DATE, 'DD/MM/YYYY HH24:MI:SS')||';'|| NOTIF_VECTOR||';'||NOTIF_MSG_SHORT||';'||NOTIF_MSG_LONG ,' ','##') FROM NOTIF_PIPE WHERE NOTIF_ORIGINE='OSR' AND NOTIF_SEND_FLAG='0' AND NOTIF_SEND_OBSOLETE='0' AND NOTIF_SEND_DATE IS NULL AND NOTIF_PREV_DATE <= SYSDATE ORDER BY NOTIF_PREV_DATE ASC;

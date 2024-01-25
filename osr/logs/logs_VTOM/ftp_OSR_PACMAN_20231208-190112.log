@@ -1,0 +1,15 @@
+20231208-190112       [info]  Using SFTP >> /logs/apache/osr/logs_VTOM/ftp_OSR_PACMAN_20231208-190112.log
+echo 20231208-190112 [info] Using SFTP
+20231208-190112       [info]  Using login : OSR
+20231208-190112       [info]  Using login : OSR
+20231208-190112	[info]	Using adress : be-echange-sftp-int-ppr.grdf.fr
+20231208-190112	[info]	Using adress : be-echange-sftp-int-ppr.grdf.fr
+20231208-190112	[info]	Getting all files from : ../flux_OSR/OASICE/sortant
+20231208-190112	[info]	Getting all files from : ../flux_OSR/OASICE/sortant
+20231208-190112	[info]	Putting all file to : in/pacman
+20231208-190112	[info]	Putting all file to : in/pacman
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+20231208-190112	[info]	le transfert ftp du fichier OSR_OASICE_2023_12_08.txt s'est bien d�roul�
+20231208-190112	[info]	le transfert ftp du fichier OSR_OASICE_2023_12_08.txt s'est bien d�roul�

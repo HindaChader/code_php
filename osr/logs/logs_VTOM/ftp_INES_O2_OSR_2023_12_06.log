@@ -1,0 +1,20 @@
+[06122023-14:00:01][INFO][ftp_INES_O2_OSR.sh] Using SFTP
+[06122023-14:00:01][INFO][ftp_INES_O2_OSR.sh] Using login : OSR
+[06122023-14:00:01][INFO][ftp_INES_O2_OSR.sh] Using port : 2222
+[06122023-14:00:01][INFO][ftp_INES_O2_OSR.sh] Using adress : be-echange-sftp-int-ppr.grdf.fr
+[06122023-14:00:01][INFO][ftp_INES_O2_OSR.sh] Getting all files from : O2/in
+[06122023-14:00:01][INFO][ftp_INES_O2_OSR.sh] Putting all file to : ../flux_OSR/O2/entrant
+Hello OSR.
+You are connected to PrÃ© Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+Invalid command.
+[06122023-14:00:01][INFO][ftp_INES_O2_OSR.sh] Le transfert ftp du fichier s'est bien déroulé
+[06122023-14:00:01][INFO][ftp_INES_O2_OSR.sh] Liste des fichiers récupérés :
+[06122023-14:00:01][INFO][ftp_INES_O2_OSR.sh] ../flux_OSR/O2/entrant/o2-osr.txt
+[06122023-14:00:01][DEBUG][ftp_INES_O2_OSR.sh] Log SFTP :
+sftp>  cd O2/in
+sftp> lcd ../flux_OSR/O2/entrant
+sftp>  mget *
+Fetching /O2/in/o2-osr.txt to o2-osr.txt
+sftp>  mdelete *
+sftp>  bye

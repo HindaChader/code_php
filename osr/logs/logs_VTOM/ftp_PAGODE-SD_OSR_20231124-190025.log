@@ -1,0 +1,1971 @@
+20231124-190025       [info]  Using SFTP >> /logs/apache/osr/logs_VTOM/ftp_PAGODE-SD_OSR_20231124-190025.log
+20231124-190025       [info]  Using login : OSR
+20231124-190025	[info]	Using port : 2222
+20231124-190025	[info]	Using adress : be-echange-sftp-int-ppr.grdf.fr
+20231124-190025	[info]	Getting all files from : PAGODE/in
+20231124-190025	[info]	Putting all file to : ../flux_OSR/PAGODE_SD/entrant
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20180619190000_KO.txt" not found.
+20231124-190026	[avert]	le fichier OSR_20180619190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20190131190000_KO.txt" not found.
+20231124-190026	[avert]	le fichier OSR_20190131190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20190926190000_KO.txt" not found.
+20231124-190026	[avert]	le fichier OSR_20190926190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20190902190001_KO.txt" not found.
+20231124-190026	[avert]	le fichier OSR_20190902190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20191126190001_KO.txt" not found.
+20231124-190026	[avert]	le fichier OSR_20191126190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201110190000_KO.txt" not found.
+20231124-190026	[avert]	le fichier OSR_20201110190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201113190001_KO.txt" not found.
+20231124-190027	[avert]	le fichier OSR_20201113190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201130190001_KO.txt" not found.
+20231124-190027	[avert]	le fichier OSR_20201130190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201228190000_KO.txt" not found.
+20231124-190027	[avert]	le fichier OSR_20201228190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201222190000_KO.txt" not found.
+20231124-190027	[avert]	le fichier OSR_20201222190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210122190000_KO.txt" not found.
+20231124-190027	[avert]	le fichier OSR_20210122190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210201190000_KO.txt" not found.
+20231124-190027	[avert]	le fichier OSR_20210201190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210202190000_KO.txt" not found.
+20231124-190027	[avert]	le fichier OSR_20210202190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210218190000_KO.txt" not found.
+20231124-190027	[avert]	le fichier OSR_20210218190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210531190000_KO.txt" not found.
+20231124-190027	[avert]	le fichier OSR_20210531190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210331190001_KO.txt" not found.
+20231124-190027	[avert]	le fichier OSR_20210331190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210402190000_KO.txt" not found.
+20231124-190028	[avert]	le fichier OSR_20210402190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210412190000_KO.txt" not found.
+20231124-190028	[avert]	le fichier OSR_20210412190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210323190000_KO.txt" not found.
+20231124-190028	[avert]	le fichier OSR_20210323190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210421190000_KO.txt" not found.
+20231124-190028	[avert]	le fichier OSR_20210421190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210514190000_KO.txt" not found.
+20231124-190028	[avert]	le fichier OSR_20210514190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210614190000_KO.txt" not found.
+20231124-190028	[avert]	le fichier OSR_20210614190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210611190000_KO.txt" not found.
+20231124-190028	[avert]	le fichier OSR_20210611190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210630190000_KO.txt" not found.
+20231124-190028	[avert]	le fichier OSR_20210630190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210607190001_KO.txt" not found.
+20231124-190029	[avert]	le fichier OSR_20210607190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210916190000_KO.txt" not found.
+20231124-190029	[avert]	le fichier OSR_20210916190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210729190000_KO.txt" not found.
+20231124-190029	[avert]	le fichier OSR_20210729190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211130190000_KO.txt" not found.
+20231124-190029	[avert]	le fichier OSR_20211130190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210915190000_KO.txt" not found.
+20231124-190029	[avert]	le fichier OSR_20210915190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210917190000_KO.txt" not found.
+20231124-190029	[avert]	le fichier OSR_20210917190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210930190001_KO.txt" not found.
+20231124-190029	[avert]	le fichier OSR_20210930190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211014190000_KO.txt" not found.
+20231124-190029	[avert]	le fichier OSR_20211014190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220415190000_KO.txt" not found.
+20231124-190029	[avert]	le fichier OSR_20220415190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211215190001_KO.txt" not found.
+20231124-190029	[avert]	le fichier OSR_20211215190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220121190000_KO.txt" not found.
+20231124-190030	[avert]	le fichier OSR_20220121190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211209190000_KO.txt" not found.
+20231124-190030	[avert]	le fichier OSR_20211209190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220112190000_KO.txt" not found.
+20231124-190030	[avert]	le fichier OSR_20220112190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220126190001_KO.txt" not found.
+20231124-190030	[avert]	le fichier OSR_20220126190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20221209190002_KO.txt" not found.
+20231124-190030	[avert]	le fichier OSR_20221209190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220905190000_KO.txt" not found.
+20231124-190030	[avert]	le fichier OSR_20220905190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220505190000_KO.txt" not found.
+20231124-190030	[avert]	le fichier OSR_20220505190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220729190002_KO.txt" not found.
+20231124-190030	[avert]	le fichier OSR_20220729190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220511190000_KO.txt" not found.
+20231124-190030	[avert]	le fichier OSR_20220511190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220620190002_KO.txt" not found.
+20231124-190031	[avert]	le fichier OSR_20220620190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20221207190002_KO.txt" not found.
+20231124-190031	[avert]	le fichier OSR_20221207190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20230303190001_KO.txt" not found.
+20231124-190031	[avert]	le fichier OSR_20230303190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20140303190000_KO.txt" not found.
+20231124-190031	[avert]	le fichier OSR_20140303190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20180813190000_KO.txt" not found.
+20231124-190031	[avert]	le fichier OSR_20180813190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20190205190001_KO.txt" not found.
+20231124-190031	[avert]	le fichier OSR_20190205190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200129190000_KO.txt" not found.
+20231124-190031	[avert]	le fichier OSR_20200129190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200814190001_KO.txt" not found.
+20231124-190031	[avert]	le fichier OSR_20200814190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200914190000_KO.txt" not found.
+20231124-190031	[avert]	le fichier OSR_20200914190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200706190000_KO.txt" not found.
+20231124-190032	[avert]	le fichier OSR_20200706190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200817190000_KO.txt" not found.
+20231124-190032	[avert]	le fichier OSR_20200817190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200826190001_KO.txt" not found.
+20231124-190032	[avert]	le fichier OSR_20200826190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200902190000_KO.txt" not found.
+20231124-190032	[avert]	le fichier OSR_20200902190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200807190000_KO.txt" not found.
+20231124-190032	[avert]	le fichier OSR_20200807190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200922190000_KO.txt" not found.
+20231124-190032	[avert]	le fichier OSR_20200922190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201005190000_KO.txt" not found.
+20231124-190032	[avert]	le fichier OSR_20201005190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201123190000_KO.txt" not found.
+20231124-190032	[avert]	le fichier OSR_20201123190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201030190000_KO.txt" not found.
+20231124-190032	[avert]	le fichier OSR_20201030190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210303190000_KO.txt" not found.
+20231124-190032	[avert]	le fichier OSR_20210303190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201216190000_KO.txt" not found.
+20231124-190033	[avert]	le fichier OSR_20201216190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210120190000_KO.txt" not found.
+20231124-190033	[avert]	le fichier OSR_20210120190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210216190000_KO.txt" not found.
+20231124-190033	[avert]	le fichier OSR_20210216190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210222190000_KO.txt" not found.
+20231124-190033	[avert]	le fichier OSR_20210222190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210521190000_KO.txt" not found.
+20231124-190033	[avert]	le fichier OSR_20210521190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210316190000_KO.txt" not found.
+20231124-190033	[avert]	le fichier OSR_20210316190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210318190000_KO.txt" not found.
+20231124-190033	[avert]	le fichier OSR_20210318190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210401190000_KO.txt" not found.
+20231124-190033	[avert]	le fichier OSR_20210401190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210728190000_KO.txt" not found.
+20231124-190034	[avert]	le fichier OSR_20210728190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210701190000_KO.txt" not found.
+20231124-190034	[avert]	le fichier OSR_20210701190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210924190000_KO.txt" not found.
+20231124-190034	[avert]	le fichier OSR_20210924190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211216190000_KO.txt" not found.
+20231124-190034	[avert]	le fichier OSR_20211216190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210920190000_KO.txt" not found.
+20231124-190034	[avert]	le fichier OSR_20210920190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211104190000_KO.txt" not found.
+20231124-190034	[avert]	le fichier OSR_20211104190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220215190000_KO.txt" not found.
+20231124-190034	[avert]	le fichier OSR_20220215190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220329190000_KO.txt" not found.
+20231124-190034	[avert]	le fichier OSR_20220329190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220201190000_KO.txt" not found.
+20231124-190034	[avert]	le fichier OSR_20220201190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220104190000_KO.txt" not found.
+20231124-190034	[avert]	le fichier OSR_20220104190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220124190001_KO.txt" not found.
+20231124-190035	[avert]	le fichier OSR_20220124190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220209190000_KO.txt" not found.
+20231124-190035	[avert]	le fichier OSR_20220209190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220223190000_KO.txt" not found.
+20231124-190035	[avert]	le fichier OSR_20220223190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20221125190002_KO.txt" not found.
+20231124-190035	[avert]	le fichier OSR_20221125190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220510190000_KO.txt" not found.
+20231124-190035	[avert]	le fichier OSR_20220510190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220615190002_KO.txt" not found.
+20231124-190035	[avert]	le fichier OSR_20220615190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220530190002_KO.txt" not found.
+20231124-190035	[avert]	le fichier OSR_20220530190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220516190001_KO.txt" not found.
+20231124-190035	[avert]	le fichier OSR_20220516190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20221128190001_KO.txt" not found.
+20231124-190035	[avert]	le fichier OSR_20221128190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20221012190003_KO.txt" not found.
+20231124-190036	[avert]	le fichier OSR_20221012190003_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20230221190001_KO.txt" not found.
+20231124-190036	[avert]	le fichier OSR_20230221190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20190910190001_KO.txt" not found.
+20231124-190036	[avert]	le fichier OSR_20190910190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20191104190000_KO.txt" not found.
+20231124-190036	[avert]	le fichier OSR_20191104190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20191112190000_KO.txt" not found.
+20231124-190036	[avert]	le fichier OSR_20191112190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200318190001_KO.txt" not found.
+20231124-190036	[avert]	le fichier OSR_20200318190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200720190000_KO.txt" not found.
+20231124-190036	[avert]	le fichier OSR_20200720190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201009190001_KO.txt" not found.
+20231124-190036	[avert]	le fichier OSR_20201009190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201012190000_KO.txt" not found.
+20231124-190036	[avert]	le fichier OSR_20201012190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201019190001_KO.txt" not found.
+20231124-190037	[avert]	le fichier OSR_20201019190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201023190000_KO.txt" not found.
+20231124-190037	[avert]	le fichier OSR_20201023190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210311190000_KO.txt" not found.
+20231124-190037	[avert]	le fichier OSR_20210311190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201210190000_KO.txt" not found.
+20231124-190037	[avert]	le fichier OSR_20201210190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210112190001_KO.txt" not found.
+20231124-190037	[avert]	le fichier OSR_20210112190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210125190000_KO.txt" not found.
+20231124-190037	[avert]	le fichier OSR_20210125190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210203190000_KO.txt" not found.
+20231124-190037	[avert]	le fichier OSR_20210203190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210204190000_KO.txt" not found.
+20231124-190037	[avert]	le fichier OSR_20210204190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210414190000_KO.txt" not found.
+20231124-190037	[avert]	le fichier OSR_20210414190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210406190000_KO.txt" not found.
+20231124-190038	[avert]	le fichier OSR_20210406190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210407190000_KO.txt" not found.
+20231124-190038	[avert]	le fichier OSR_20210407190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210505190000_KO.txt" not found.
+20231124-190038	[avert]	le fichier OSR_20210505190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210810190000_KO.txt" not found.
+20231124-190038	[avert]	le fichier OSR_20210810190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210824190000_KO.txt" not found.
+20231124-190038	[avert]	le fichier OSR_20210824190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210608190000_KO.txt" not found.
+20231124-190038	[avert]	le fichier OSR_20210608190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210623190000_KO.txt" not found.
+20231124-190038	[avert]	le fichier OSR_20210623190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210705190000_KO.txt" not found.
+20231124-190038	[avert]	le fichier OSR_20210705190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210830190000_KO.txt" not found.
+20231124-190038	[avert]	le fichier OSR_20210830190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211129190000_KO.txt" not found.
+20231124-190039	[avert]	le fichier OSR_20211129190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211108190000_KO.txt" not found.
+20231124-190039	[avert]	le fichier OSR_20211108190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210928190000_KO.txt" not found.
+20231124-190039	[avert]	le fichier OSR_20210928190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211122190001_KO.txt" not found.
+20231124-190039	[avert]	le fichier OSR_20211122190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210913190001_KO.txt" not found.
+20231124-190039	[avert]	le fichier OSR_20210913190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211026190000_KO.txt" not found.
+20231124-190039	[avert]	le fichier OSR_20211026190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211109190001_KO.txt" not found.
+20231124-190039	[avert]	le fichier OSR_20211109190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211021190000_KO.txt" not found.
+20231124-190039	[avert]	le fichier OSR_20211021190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220222190001_KO.txt" not found.
+20231124-190039	[avert]	le fichier OSR_20220222190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220314190000_KO.txt" not found.
+20231124-190040	[avert]	le fichier OSR_20220314190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220316190000_KO.txt" not found.
+20231124-190040	[avert]	le fichier OSR_20220316190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220224190000_KO.txt" not found.
+20231124-190040	[avert]	le fichier OSR_20220224190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211214190000_KO.txt" not found.
+20231124-190040	[avert]	le fichier OSR_20211214190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211207190000_KO.txt" not found.
+20231124-190040	[avert]	le fichier OSR_20211207190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220114190000_KO.txt" not found.
+20231124-190040	[avert]	le fichier OSR_20220114190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220307190000_KO.txt" not found.
+20231124-190040	[avert]	le fichier OSR_20220307190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20221221190002_KO.txt" not found.
+20231124-190040	[avert]	le fichier OSR_20221221190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220909190002_KO.txt" not found.
+20231124-190040	[avert]	le fichier OSR_20220909190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220916190001_KO.txt" not found.
+20231124-190040	[avert]	le fichier OSR_20220916190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220713190002_KO.txt" not found.
+20231124-190041	[avert]	le fichier OSR_20220713190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20221214190002_KO.txt" not found.
+20231124-190041	[avert]	le fichier OSR_20221214190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220519190001_KO.txt" not found.
+20231124-190041	[avert]	le fichier OSR_20220519190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220621190002_KO.txt" not found.
+20231124-190041	[avert]	le fichier OSR_20220621190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20170413190000_KO.txt" not found.
+20231124-190041	[avert]	le fichier OSR_20170413190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20181029190000_KO.txt" not found.
+20231124-190041	[avert]	le fichier OSR_20181029190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200915190001_KO.txt" not found.
+20231124-190041	[avert]	le fichier OSR_20200915190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200624190000_KO.txt" not found.
+20231124-190041	[avert]	le fichier OSR_20200624190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201001190000_KO.txt" not found.
+20231124-190042	[avert]	le fichier OSR_20201001190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200916190000_KO.txt" not found.
+20231124-190042	[avert]	le fichier OSR_20200916190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200918190001_KO.txt" not found.
+20231124-190042	[avert]	le fichier OSR_20200918190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210215190000_KO.txt" not found.
+20231124-190042	[avert]	le fichier OSR_20210215190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210309190000_KO.txt" not found.
+20231124-190042	[avert]	le fichier OSR_20210309190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210107190000_KO.txt" not found.
+20231124-190042	[avert]	le fichier OSR_20210107190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210114190000_KO.txt" not found.
+20231124-190042	[avert]	le fichier OSR_20210114190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210205190000_KO.txt" not found.
+20231124-190042	[avert]	le fichier OSR_20210205190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210528190000_KO.txt" not found.
+20231124-190042	[avert]	le fichier OSR_20210528190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210512190000_KO.txt" not found.
+20231124-190042	[avert]	le fichier OSR_20210512190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210601190000_KO.txt" not found.
+20231124-190043	[avert]	le fichier OSR_20210601190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210602190000_KO.txt" not found.
+20231124-190043	[avert]	le fichier OSR_20210602190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210325190000_KO.txt" not found.
+20231124-190043	[avert]	le fichier OSR_20210325190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210322190000_KO.txt" not found.
+20231124-190043	[avert]	le fichier OSR_20210322190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210510190000_KO.txt" not found.
+20231124-190043	[avert]	le fichier OSR_20210510190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210624190001_KO.txt" not found.
+20231124-190043	[avert]	le fichier OSR_20210624190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210827190000_KO.txt" not found.
+20231124-190043	[avert]	le fichier OSR_20210827190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210615190000_KO.txt" not found.
+20231124-190043	[avert]	le fichier OSR_20210615190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210708190000_KO.txt" not found.
+20231124-190043	[avert]	le fichier OSR_20210708190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210625190000_KO.txt" not found.
+20231124-190044	[avert]	le fichier OSR_20210625190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210629190000_KO.txt" not found.
+20231124-190044	[avert]	le fichier OSR_20210629190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210712190000_KO.txt" not found.
+20231124-190044	[avert]	le fichier OSR_20210712190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210702190000_KO.txt" not found.
+20231124-190044	[avert]	le fichier OSR_20210702190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210806190000_KO.txt" not found.
+20231124-190044	[avert]	le fichier OSR_20210806190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210803190000_KO.txt" not found.
+20231124-190044	[avert]	le fichier OSR_20210803190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210923190000_KO.txt" not found.
+20231124-190044	[avert]	le fichier OSR_20210923190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210909190000_KO.txt" not found.
+20231124-190044	[avert]	le fichier OSR_20210909190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211008190000_KO.txt" not found.
+20231124-190044	[avert]	le fichier OSR_20211008190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220330190000_KO.txt" not found.
+20231124-190045	[avert]	le fichier OSR_20220330190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220328190000_KO.txt" not found.
+20231124-190045	[avert]	le fichier OSR_20220328190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211210190000_KO.txt" not found.
+20231124-190045	[avert]	le fichier OSR_20211210190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220113190000_KO.txt" not found.
+20231124-190045	[avert]	le fichier OSR_20220113190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211221190000_KO.txt" not found.
+20231124-190045	[avert]	le fichier OSR_20211221190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220208190000_KO.txt" not found.
+20231124-190045	[avert]	le fichier OSR_20220208190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20230117190002_KO.txt" not found.
+20231124-190045	[avert]	le fichier OSR_20230117190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220506190000_KO.txt" not found.
+20231124-190045	[avert]	le fichier OSR_20220506190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220428190000_KO.txt" not found.
+20231124-190046	[avert]	le fichier OSR_20220428190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220421190000_KO.txt" not found.
+20231124-190046	[avert]	le fichier OSR_20220421190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20230220190000_KO.txt" not found.
+20231124-190046	[avert]	le fichier OSR_20230220190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220614190002_KO.txt" not found.
+20231124-190046	[avert]	le fichier OSR_20220614190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220913190001_KO.txt" not found.
+20231124-190046	[avert]	le fichier OSR_20220913190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20221006190001_KO.txt" not found.
+20231124-190046	[avert]	le fichier OSR_20221006190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20221004190001_KO.txt" not found.
+20231124-190046	[avert]	le fichier OSR_20221004190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20230201190002_KO.txt" not found.
+20231124-190046	[avert]	le fichier OSR_20230201190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220914190000_KO.txt" not found.
+20231124-190046	[avert]	le fichier OSR_20220914190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20230224190002_KO.txt" not found.
+20231124-190047	[avert]	le fichier OSR_20230224190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20221208190001_KO.txt" not found.
+20231124-190047	[avert]	le fichier OSR_20221208190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20171114190000_KO.txt" not found.
+20231124-190047	[avert]	le fichier OSR_20171114190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20180606190000_KO.txt" not found.
+20231124-190047	[avert]	le fichier OSR_20180606190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20190807190000_KO.txt" not found.
+20231124-190047	[avert]	le fichier OSR_20190807190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20191213190000_KO.txt" not found.
+20231124-190047	[avert]	le fichier OSR_20191213190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20191129190000_KO.txt" not found.
+20231124-190047	[avert]	le fichier OSR_20191129190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200717190000_KO.txt" not found.
+20231124-190047	[avert]	le fichier OSR_20200717190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201127190000_KO.txt" not found.
+20231124-190047	[avert]	le fichier OSR_20201127190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201022190000_KO.txt" not found.
+20231124-190047	[avert]	le fichier OSR_20201022190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201002190000_KO.txt" not found.
+20231124-190048	[avert]	le fichier OSR_20201002190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201028190000_KO.txt" not found.
+20231124-190048	[avert]	le fichier OSR_20201028190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201119190000_KO.txt" not found.
+20231124-190048	[avert]	le fichier OSR_20201119190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201125190000_KO.txt" not found.
+20231124-190048	[avert]	le fichier OSR_20201125190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201103190000_KO.txt" not found.
+20231124-190048	[avert]	le fichier OSR_20201103190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210302190001_KO.txt" not found.
+20231124-190048	[avert]	le fichier OSR_20210302190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201223190000_KO.txt" not found.
+20231124-190048	[avert]	le fichier OSR_20201223190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210526190000_KO.txt" not found.
+20231124-190048	[avert]	le fichier OSR_20210526190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210326190000_KO.txt" not found.
+20231124-190049	[avert]	le fichier OSR_20210326190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210330190000_KO.txt" not found.
+20231124-190049	[avert]	le fichier OSR_20210330190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210420190000_KO.txt" not found.
+20231124-190049	[avert]	le fichier OSR_20210420190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210426190000_KO.txt" not found.
+20231124-190049	[avert]	le fichier OSR_20210426190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210503190000_KO.txt" not found.
+20231124-190049	[avert]	le fichier OSR_20210503190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210506190000_KO.txt" not found.
+20231124-190049	[avert]	le fichier OSR_20210506190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210518190001_KO.txt" not found.
+20231124-190049	[avert]	le fichier OSR_20210518190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210723190001_KO.txt" not found.
+20231124-190049	[avert]	le fichier OSR_20210723190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210813190000_KO.txt" not found.
+20231124-190049	[avert]	le fichier OSR_20210813190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210820190001_KO.txt" not found.
+20231124-190049	[avert]	le fichier OSR_20210820190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210802190001_KO.txt" not found.
+20231124-190050	[avert]	le fichier OSR_20210802190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210616190000_KO.txt" not found.
+20231124-190050	[avert]	le fichier OSR_20210616190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210610190000_KO.txt" not found.
+20231124-190050	[avert]	le fichier OSR_20210610190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210618190000_KO.txt" not found.
+20231124-190050	[avert]	le fichier OSR_20210618190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210622190000_KO.txt" not found.
+20231124-190050	[avert]	le fichier OSR_20210622190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210706190000_KO.txt" not found.
+20231124-190050	[avert]	le fichier OSR_20210706190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210804190000_KO.txt" not found.
+20231124-190050	[avert]	le fichier OSR_20210804190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211103190000_KO.txt" not found.
+20231124-190050	[avert]	le fichier OSR_20211103190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211202190000_KO.txt" not found.
+20231124-190051	[avert]	le fichier OSR_20211202190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210922190000_KO.txt" not found.
+20231124-190051	[avert]	le fichier OSR_20210922190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211007190000_KO.txt" not found.
+20231124-190051	[avert]	le fichier OSR_20211007190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211018190000_KO.txt" not found.
+20231124-190051	[avert]	le fichier OSR_20211018190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211013190000_KO.txt" not found.
+20231124-190051	[avert]	le fichier OSR_20211013190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211015190000_KO.txt" not found.
+20231124-190051	[avert]	le fichier OSR_20211015190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211028190000_KO.txt" not found.
+20231124-190051	[avert]	le fichier OSR_20211028190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220221190000_KO.txt" not found.
+20231124-190051	[avert]	le fichier OSR_20220221190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220103190000_KO.txt" not found.
+20231124-190051	[avert]	le fichier OSR_20220103190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220107190001_KO.txt" not found.
+20231124-190052	[avert]	le fichier OSR_20220107190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220304190000_KO.txt" not found.
+20231124-190052	[avert]	le fichier OSR_20220304190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20221205190001_KO.txt" not found.
+20231124-190052	[avert]	le fichier OSR_20221205190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220802190002_KO.txt" not found.
+20231124-190052	[avert]	le fichier OSR_20220802190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220531190002_KO.txt" not found.
+20231124-190052	[avert]	le fichier OSR_20220531190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220517190002_KO.txt" not found.
+20231124-190052	[avert]	le fichier OSR_20220517190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220628190002_KO.txt" not found.
+20231124-190052	[avert]	le fichier OSR_20220628190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20230123190000_KO.txt" not found.
+20231124-190053	[avert]	le fichier OSR_20230123190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20221013190000_KO.txt" not found.
+20231124-190053	[avert]	le fichier OSR_20221013190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20221020190000_KO.txt" not found.
+20231124-190053	[avert]	le fichier OSR_20221020190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220518190001_KO.txt" not found.
+20231124-190053	[avert]	le fichier OSR_20220518190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20190621190000_KO.txt" not found.
+20231124-190053	[avert]	le fichier OSR_20190621190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20191212190001_KO.txt" not found.
+20231124-190053	[avert]	le fichier OSR_20191212190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200821190000_KO.txt" not found.
+20231124-190053	[avert]	le fichier OSR_20200821190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200710190000_KO.txt" not found.
+20231124-190053	[avert]	le fichier OSR_20200710190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200818190000_KO.txt" not found.
+20231124-190053	[avert]	le fichier OSR_20200818190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200804190001_KO.txt" not found.
+20231124-190053	[avert]	le fichier OSR_20200804190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201112190000_KO.txt" not found.
+20231124-190054	[avert]	le fichier OSR_20201112190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201204190000_KO.txt" not found.
+20231124-190054	[avert]	le fichier OSR_20201204190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201116190000_KO.txt" not found.
+20231124-190054	[avert]	le fichier OSR_20201116190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201102190001_KO.txt" not found.
+20231124-190054	[avert]	le fichier OSR_20201102190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201120190000_KO.txt" not found.
+20231124-190054	[avert]	le fichier OSR_20201120190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210212190000_KO.txt" not found.
+20231124-190054	[avert]	le fichier OSR_20210212190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210126190000_KO.txt" not found.
+20231124-190054	[avert]	le fichier OSR_20210126190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210127190000_KO.txt" not found.
+20231124-190054	[avert]	le fichier OSR_20210127190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210527190000_KO.txt" not found.
+20231124-190054	[avert]	le fichier OSR_20210527190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210507190000_KO.txt" not found.
+20231124-190055	[avert]	le fichier OSR_20210507190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210517190000_KO.txt" not found.
+20231124-190055	[avert]	le fichier OSR_20210517190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210604190000_KO.txt" not found.
+20231124-190055	[avert]	le fichier OSR_20210604190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210319190000_KO.txt" not found.
+20231124-190055	[avert]	le fichier OSR_20210319190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210419190000_KO.txt" not found.
+20231124-190055	[avert]	le fichier OSR_20210419190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210413190000_KO.txt" not found.
+20231124-190055	[avert]	le fichier OSR_20210413190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210415190000_KO.txt" not found.
+20231124-190055	[avert]	le fichier OSR_20210415190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210423190001_KO.txt" not found.
+20231124-190055	[avert]	le fichier OSR_20210423190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210430190000_KO.txt" not found.
+20231124-190055	[avert]	le fichier OSR_20210430190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210511190000_KO.txt" not found.
+20231124-190056	[avert]	le fichier OSR_20210511190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210902190000_KO.txt" not found.
+20231124-190056	[avert]	le fichier OSR_20210902190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210727190000_KO.txt" not found.
+20231124-190056	[avert]	le fichier OSR_20210727190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210730190000_KO.txt" not found.
+20231124-190056	[avert]	le fichier OSR_20210730190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210906190000_KO.txt" not found.
+20231124-190056	[avert]	le fichier OSR_20210906190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210805190000_KO.txt" not found.
+20231124-190056	[avert]	le fichier OSR_20210805190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210908190000_KO.txt" not found.
+20231124-190056	[avert]	le fichier OSR_20210908190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210726190000_KO.txt" not found.
+20231124-190056	[avert]	le fichier OSR_20210726190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210628190000_KO.txt" not found.
+20231124-190056	[avert]	le fichier OSR_20210628190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210709190000_KO.txt" not found.
+20231124-190056	[avert]	le fichier OSR_20210709190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210719190001_KO.txt" not found.
+20231124-190057	[avert]	le fichier OSR_20210719190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210715190000_KO.txt" not found.
+20231124-190057	[avert]	le fichier OSR_20210715190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211110190000_KO.txt" not found.
+20231124-190057	[avert]	le fichier OSR_20211110190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211118190001_KO.txt" not found.
+20231124-190057	[avert]	le fichier OSR_20211118190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211020190001_KO.txt" not found.
+20231124-190057	[avert]	le fichier OSR_20211020190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210927190000_KO.txt" not found.
+20231124-190057	[avert]	le fichier OSR_20210927190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211004190001_KO.txt" not found.
+20231124-190057	[avert]	le fichier OSR_20211004190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211005190000_KO.txt" not found.
+20231124-190057	[avert]	le fichier OSR_20211005190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211011190000_KO.txt" not found.
+20231124-190057	[avert]	le fichier OSR_20211011190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210929190000_KO.txt" not found.
+20231124-190058	[avert]	le fichier OSR_20210929190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220414190001_KO.txt" not found.
+20231124-190058	[avert]	le fichier OSR_20220414190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220225190000_KO.txt" not found.
+20231124-190058	[avert]	le fichier OSR_20220225190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220228190000_KO.txt" not found.
+20231124-190058	[avert]	le fichier OSR_20220228190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220425190000_KO.txt" not found.
+20231124-190058	[avert]	le fichier OSR_20220425190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220613190002_KO.txt" not found.
+20231124-190058	[avert]	le fichier OSR_20220613190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220921190002_KO.txt" not found.
+20231124-190058	[avert]	le fichier OSR_20220921190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20230605190003_KO.txt" not found.
+20231124-190058	[avert]	le fichier OSR_20230605190003_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220919190000_KO.txt" not found.
+20231124-190058	[avert]	le fichier OSR_20220919190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20230307190001_KO.txt" not found.
+20231124-190059	[avert]	le fichier OSR_20230307190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220812190000_KO.txt" not found.
+20231124-190059	[avert]	le fichier OSR_20220812190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220817190001_KO.txt" not found.
+20231124-190059	[avert]	le fichier OSR_20220817190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20191007190000_KO.txt" not found.
+20231124-190059	[avert]	le fichier OSR_20191007190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20191014190001_KO.txt" not found.
+20231124-190059	[avert]	le fichier OSR_20191014190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200206190000_KO.txt" not found.
+20231124-190059	[avert]	le fichier OSR_20200206190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200909190000_KO.txt" not found.
+20231124-190059	[avert]	le fichier OSR_20200909190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200722190000_KO.txt" not found.
+20231124-190059	[avert]	le fichier OSR_20200722190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200729190000_KO.txt" not found.
+20231124-190059	[avert]	le fichier OSR_20200729190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201104190001_KO.txt" not found.
+20231124-190059	[avert]	le fichier OSR_20201104190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201124190000_KO.txt" not found.
+20231124-190100	[avert]	le fichier OSR_20201124190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210305190001_KO.txt" not found.
+20231124-190100	[avert]	le fichier OSR_20210305190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210219190000_KO.txt" not found.
+20231124-190100	[avert]	le fichier OSR_20210219190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210310190000_KO.txt" not found.
+20231124-190100	[avert]	le fichier OSR_20210310190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210312190000_KO.txt" not found.
+20231124-190100	[avert]	le fichier OSR_20210312190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210223190001_KO.txt" not found.
+20231124-190100	[avert]	le fichier OSR_20210223190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201217190000_KO.txt" not found.
+20231124-190100	[avert]	le fichier OSR_20201217190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210113190000_KO.txt" not found.
+20231124-190100	[avert]	le fichier OSR_20210113190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210226190000_KO.txt" not found.
+20231124-190101	[avert]	le fichier OSR_20210226190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210324190000_KO.txt" not found.
+20231124-190101	[avert]	le fichier OSR_20210324190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210416190000_KO.txt" not found.
+20231124-190101	[avert]	le fichier OSR_20210416190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210422190001_KO.txt" not found.
+20231124-190101	[avert]	le fichier OSR_20210422190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210428190000_KO.txt" not found.
+20231124-190101	[avert]	le fichier OSR_20210428190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210519190000_KO.txt" not found.
+20231124-190101	[avert]	le fichier OSR_20210519190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210831190000_KO.txt" not found.
+20231124-190101	[avert]	le fichier OSR_20210831190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210818190000_KO.txt" not found.
+20231124-190101	[avert]	le fichier OSR_20210818190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210722190000_KO.txt" not found.
+20231124-190101	[avert]	le fichier OSR_20210722190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210707190000_KO.txt" not found.
+20231124-190101	[avert]	le fichier OSR_20210707190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210713190000_KO.txt" not found.
+20231124-190102	[avert]	le fichier OSR_20210713190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210716190001_KO.txt" not found.
+20231124-190102	[avert]	le fichier OSR_20210716190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210720190001_KO.txt" not found.
+20231124-190102	[avert]	le fichier OSR_20210720190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210809190000_KO.txt" not found.
+20231124-190102	[avert]	le fichier OSR_20210809190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210721190000_KO.txt" not found.
+20231124-190102	[avert]	le fichier OSR_20210721190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211115190000_KO.txt" not found.
+20231124-190102	[avert]	le fichier OSR_20211115190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211102190000_KO.txt" not found.
+20231124-190102	[avert]	le fichier OSR_20211102190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211119190000_KO.txt" not found.
+20231124-190102	[avert]	le fichier OSR_20211119190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210910190001_KO.txt" not found.
+20231124-190103	[avert]	le fichier OSR_20210910190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211001190000_KO.txt" not found.
+20231124-190103	[avert]	le fichier OSR_20211001190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210921190000_KO.txt" not found.
+20231124-190103	[avert]	le fichier OSR_20210921190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211006190000_KO.txt" not found.
+20231124-190103	[avert]	le fichier OSR_20211006190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211025190000_KO.txt" not found.
+20231124-190103	[avert]	le fichier OSR_20211025190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211022190000_KO.txt" not found.
+20231124-190103	[avert]	le fichier OSR_20211022190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220217190000_KO.txt" not found.
+20231124-190103	[avert]	le fichier OSR_20220217190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220117190000_KO.txt" not found.
+20231124-190103	[avert]	le fichier OSR_20220117190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220413190000_KO.txt" not found.
+20231124-190103	[avert]	le fichier OSR_20220413190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211229190000_KO.txt" not found.
+20231124-190103	[avert]	le fichier OSR_20211229190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220120190000_KO.txt" not found.
+20231124-190104	[avert]	le fichier OSR_20220120190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220302190000_KO.txt" not found.
+20231124-190104	[avert]	le fichier OSR_20220302190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220128190000_KO.txt" not found.
+20231124-190104	[avert]	le fichier OSR_20220128190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20230227190000_KO.txt" not found.
+20231124-190104	[avert]	le fichier OSR_20230227190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220712190000_KO.txt" not found.
+20231124-190104	[avert]	le fichier OSR_20220712190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220527190002_KO.txt" not found.
+20231124-190104	[avert]	le fichier OSR_20220527190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20221014190001_KO.txt" not found.
+20231124-190104	[avert]	le fichier OSR_20221014190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20180426190001_KO.txt" not found.
+20231124-190104	[avert]	le fichier OSR_20180426190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20190912190001_KO.txt" not found.
+20231124-190104	[avert]	le fichier OSR_20190912190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200625190000_KO.txt" not found.
+20231124-190105	[avert]	le fichier OSR_20200625190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200928190001_KO.txt" not found.
+20231124-190105	[avert]	le fichier OSR_20200928190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20200929190000_KO.txt" not found.
+20231124-190105	[avert]	le fichier OSR_20200929190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210308190000_KO.txt" not found.
+20231124-190105	[avert]	le fichier OSR_20210308190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201218190000_KO.txt" not found.
+20231124-190105	[avert]	le fichier OSR_20201218190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201221190000_KO.txt" not found.
+20231124-190105	[avert]	le fichier OSR_20201221190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201214190000_KO.txt" not found.
+20231124-190105	[avert]	le fichier OSR_20201214190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20201224190000_KO.txt" not found.
+20231124-190105	[avert]	le fichier OSR_20201224190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210121190000_KO.txt" not found.
+20231124-190105	[avert]	le fichier OSR_20210121190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210224190001_KO.txt" not found.
+20231124-190106	[avert]	le fichier OSR_20210224190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210525190001_KO.txt" not found.
+20231124-190106	[avert]	le fichier OSR_20210525190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210520190000_KO.txt" not found.
+20231124-190106	[avert]	le fichier OSR_20210520190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210317190000_KO.txt" not found.
+20231124-190106	[avert]	le fichier OSR_20210317190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210409190000_KO.txt" not found.
+20231124-190106	[avert]	le fichier OSR_20210409190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210408190000_KO.txt" not found.
+20231124-190106	[avert]	le fichier OSR_20210408190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210504190000_KO.txt" not found.
+20231124-190106	[avert]	le fichier OSR_20210504190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210429190000_KO.txt" not found.
+20231124-190106	[avert]	le fichier OSR_20210429190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210901190000_KO.txt" not found.
+20231124-190106	[avert]	le fichier OSR_20210901190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210903190000_KO.txt" not found.
+20231124-190106	[avert]	le fichier OSR_20210903190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210825190000_KO.txt" not found.
+20231124-190107	[avert]	le fichier OSR_20210825190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210907190000_KO.txt" not found.
+20231124-190107	[avert]	le fichier OSR_20210907190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210621190000_KO.txt" not found.
+20231124-190107	[avert]	le fichier OSR_20210621190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20210617190000_KO.txt" not found.
+20231124-190107	[avert]	le fichier OSR_20210617190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211019190000_KO.txt" not found.
+20231124-190107	[avert]	le fichier OSR_20211019190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20211029190000_KO.txt" not found.
+20231124-190107	[avert]	le fichier OSR_20211029190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220404190000_KO.txt" not found.
+20231124-190107	[avert]	le fichier OSR_20220404190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220411190000_KO.txt" not found.
+20231124-190107	[avert]	le fichier OSR_20220411190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220110190000_KO.txt" not found.
+20231124-190108	[avert]	le fichier OSR_20220110190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220202190000_KO.txt" not found.
+20231124-190108	[avert]	le fichier OSR_20220202190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220203190000_KO.txt" not found.
+20231124-190108	[avert]	le fichier OSR_20220203190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220204190000_KO.txt" not found.
+20231124-190108	[avert]	le fichier OSR_20220204190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20230217190000_KO.txt" not found.
+20231124-190108	[avert]	le fichier OSR_20230217190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20221124190001_KO.txt" not found.
+20231124-190108	[avert]	le fichier OSR_20221124190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220420190000_KO.txt" not found.
+20231124-190108	[avert]	le fichier OSR_20220420190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220426190000_KO.txt" not found.
+20231124-190108	[avert]	le fichier OSR_20220426190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20230210190002_KO.txt" not found.
+20231124-190108	[avert]	le fichier OSR_20230210190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220927190002_KO.txt" not found.
+20231124-190108	[avert]	le fichier OSR_20220927190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220523190002_KO.txt" not found.
+20231124-190109	[avert]	le fichier OSR_20220523190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220624190001_KO.txt" not found.
+20231124-190109	[avert]	le fichier OSR_20220624190001_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20221025190000_KO.txt" not found.
+20231124-190109	[avert]	le fichier OSR_20221025190000_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220622190002_KO.txt" not found.
+20231124-190109	[avert]	le fichier OSR_20220622190002_KO.txt n'existe pas sur INES
+Hello OSR.
+You are connected to Pré Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+File "/PAGODE/in/OSR_20220706190002_KO.txt" not found.
+20231124-190109	[avert]	le fichier OSR_20220706190002_KO.txt n'existe pas sur INES

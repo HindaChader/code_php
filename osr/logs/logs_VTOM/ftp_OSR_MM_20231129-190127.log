@@ -1,0 +1,12 @@
+20231129-190127       [info]  Using SFTP >> /logs/apache/osr/logs_VTOM/ftp_OSR_MM_20231129-190127.log
+20231129-190127       [info]  Using SFTP >> /logs/apache/osr/logs_VTOM/ftp_OSR_MM_20231129-190127.log
+20231129-190127       [info]  Using login : OSR
+20231129-190127       [info]  Using login : OSR
+20231129-190127	[info]	Using port : 2222
+20231129-190127	[info]	Using port : 2222
+20231129-190127	[info]	Using adress : be-echange-sftp-int-ppr.grdf.fr
+20231129-190127	[info]	Using adress : be-echange-sftp-int-ppr.grdf.fr
+20231129-190127	[info]	Getting all files from : ../flux_OSR/PAGODE_MM/sortant
+20231129-190127	[info]	Getting all files from : ../flux_OSR/PAGODE_MM/sortant
+20231129-190127	[info]	Putting all file to : PAGODE_MM/ot
+20231129-190127	[info]	Putting all file to : PAGODE_MM/ot

@@ -1,0 +1,22 @@
+20231130-190112       [info]  Using SFTP >> /logs/apache/osr/logs_VTOM/ftp_FI_OSR_20231130-190112.log
+20231130-190112       [info]  Using SFTP >> /logs/apache/osr/logs_VTOM/ftp_FI_OSR_20231130-190112.log
+20231130-190112       [info]  Using login : OSR
+20231130-190112       [info]  Using login : OSR
+20231130-190112	[info]	Using port : 2222
+20231130-190112	[info]	Using port : 2222
+20231130-190112	[info]	Using adress : be-echange-sftp-int-ppr.grdf.fr
+20231130-190112	[info]	Using adress : be-echange-sftp-int-ppr.grdf.fr
+20231130-190112	[info]	Getting all files from : PAGODE/in
+20231130-190112	[info]	Getting all files from : PAGODE/in
+20231130-190112	[info]	Putting all file to : ../flux_OSR/PAGODE_FI/entrant
+20231130-190112	[info]	Putting all file to : ../flux_OSR/PAGODE_FI/entrant
+Hello OSR.
+You are connected to PrÃ© Production (node 01 h2l0beg1014e.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+Invalid command.
+20231130-190112	[info]	Liste des fichiers récupérés
+20231130-190112	[info]	Liste des fichiers récupérés
+20231130-190112	[info]	              ../flux_OSR/PAGODE_FI/entrant/old/OSR_FI_20211213162635.new
+../flux_OSR/PAGODE_FI/entrant/OSR_FI_20211213162635.csv
+20231130-190112	[info]	              ../flux_OSR/PAGODE_FI/entrant/old/OSR_FI_20211213162635.new
+../flux_OSR/PAGODE_FI/entrant/OSR_FI_20211213162635.csv

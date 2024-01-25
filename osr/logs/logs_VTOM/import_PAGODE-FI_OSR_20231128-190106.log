@@ -1,0 +1,14 @@
+[28112023-19:01:06][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PAGODE-FI_OSR.sh] ========================= DEBUT DU SCRIPT =========================
+[28112023-19:01:06][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PAGODE-FI_OSR.sh]
+[28112023-19:01:06][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PAGODE-FI_OSR.sh] -------------------------------------------------------------------
+[28112023-19:01:06][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PAGODE-FI_OSR.sh] --- Traitement du fichier OSR_FI_20211213162635.csv
+[28112023-19:01:06][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PAGODE-FI_OSR.sh] -------------------------------------------------------------------
+[28112023-19:01:06][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PAGODE-FI_OSR.sh] Traitement du fichier...
+[28112023-19:01:06][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PAGODE-FI_OSR.sh] Fin traitement du fichier...
+[28112023-19:01:06][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PAGODE-FI_OSR.sh] Chargement du fichier OSR_FI_20211213162635.csv en table temporaire...
+[28112023-19:01:07][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PAGODE-FI_OSR.sh] Copie des données dans les tables définitives...
+[28112023-19:01:08][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PAGODE-FI_OSR.sh]
+[28112023-19:01:08][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PAGODE-FI_OSR.sh] L'intégration des fichiers s'est déroulée avec succès. Vérifier la table LOGS.
+[28112023-19:01:08][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PAGODE-FI_OSR.sh]
+[28112023-19:01:08][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PAGODE-FI_OSR.sh] ========================== FIN DU SCRIPT ==========================
+[28112023-19:01:08][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PAGODE-FI_OSR.sh]

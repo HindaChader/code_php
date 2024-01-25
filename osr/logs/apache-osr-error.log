@@ -1,0 +1,7 @@
+[Fri Dec 29 03:24:01.449571 2023] [lbmethod_heartbeat:notice] [pid 55173] AH02282: No slotmem from mod_heartmonitor
+[Fri Dec 29 03:24:01.451350 2023] [ssl:warn] [pid 55173] AH01909: RSA certificate configured for 10.236.2.79:443 does NOT include an ID which matches the server name
+[Fri Dec 29 03:24:01.451610 2023] [ssl:warn] [pid 55173] AH01909: RSA certificate configured for h2l1osr1004q.dc.infra-grdf.com:55520 does NOT include an ID which matches the server name
+[Fri Dec 29 03:24:01.451817 2023] [ssl:warn] [pid 55173] AH01909: RSA certificate configured for 10.236.2.79:443 does NOT include an ID which matches the server name
+PHP Warning:  Module 'oci8' already loaded in Unknown on line 0
+[Fri Dec 29 03:24:01.472652 2023] [mpm_prefork:notice] [pid 55173] AH00163: Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.2k-fips PHP/5.4.16 configured -- resuming normal operations
+[Fri Dec 29 03:24:01.472661 2023] [core:notice] [pid 55173] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND -f /appli/apache/2.4.6/osr/httpd.conf'

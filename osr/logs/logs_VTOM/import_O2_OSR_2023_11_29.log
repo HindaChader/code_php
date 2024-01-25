@@ -1,0 +1,12 @@
+[29112023-14:00:03][INFO][h2l1osr1004q.dc.infra-grdf.com][import_O2_OSR.sh] ========================= DEBUT DU SCRIPT =========================
+[29112023-14:00:03][INFO][h2l1osr1004q.dc.infra-grdf.com][import_O2_OSR.sh] Debut - Chargement des fichiers de mise à jour du numéro d'affaire O2
+[29112023-14:00:03][INFO][h2l1osr1004q.dc.infra-grdf.com][import_O2_OSR.sh] Traitement du fichier o2-osr.txt
+[29112023-14:00:03][INFO][h2l1osr1004q.dc.infra-grdf.com][import_O2_OSR.sh] Parsing du fichier o2-osr.txt
+[29112023-14:01:37][INFO][h2l1osr1004q.dc.infra-grdf.com][import_O2_OSR.sh] Exécution du fichier sql généré pour le fichier o2-osr.txt
+[29112023-14:10:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_O2_OSR.sh] Le fichier SQL généré /appli/apache/shell/traitements_OSR/work_O2/script_maj_affaire_o2_20231129-140003.sql a été joué sans erreurs
+[29112023-14:10:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_O2_OSR.sh]
+[29112023-14:10:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_O2_OSR.sh] L'intégration du fichier s'est déroulée avec succès.
+[29112023-14:10:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_O2_OSR.sh] Déplacement du fichier dans Archive.
+[29112023-14:10:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_O2_OSR.sh]
+[29112023-14:10:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_O2_OSR.sh] ========================== FIN DU SCRIPT ==========================
+[29112023-14:10:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_O2_OSR.sh]

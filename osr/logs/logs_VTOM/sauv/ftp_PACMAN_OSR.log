@@ -1,0 +1,15 @@
+20231023-064050       [info]  Using SFTP >> /logs/apache/osr/logs_VTOM/ftp_PACMAN_OSR.log
+echo 20231023-064050 [info] Using login : OSR >> /logs/apache/osr/logs_VTOM/ftp_PACMAN_OSR.log
+else
+echo 20231023-064050 [info] Using FTP
+20231023-064050       [info]  Using login : OSR
+20231023-064050       [info]  Using password : 
+20231023-064050       [info]  Using port : 2222
+20231023-064050       [info]  Using adress : be-echange-sftp-int-ppr.grdf.fr
+20231023-064050       [info]  Getting all files from : out/pacman
+20231023-064050       [info]  Putting all file to : ../flux_OSR/PACMAN/entrant
+Hello OSR.
+You are connected to Pr√© Production (node 01 h2l0beg1015f.dc.infra-grdf.com).
+Connected to be-echange-sftp-int-ppr.grdf.fr.
+Invalid command.
+20231023-064050       [avert] Aucun fichier râcupârâ

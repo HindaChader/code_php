@@ -1,0 +1,44 @@
+[30102023-06:50:54][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] ========================= DEBUT DU SCRIPT =========================
+[30102023-06:50:54][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh]
+[30102023-06:50:54][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] -------------------------------------------------------------------
+[30102023-06:50:54][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] --- Traitement du fichier PACMAN_OSR_AFFAIRES_06102023
+[30102023-06:50:54][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] -------------------------------------------------------------------
+[30102023-06:50:54][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] Traitement du fichier...
+[30102023-06:50:54][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] Chargement du fichier PACMAN_OSR_AFFAIRES_06102023 en table temporaire...
+[30102023-06:50:55][ERROR][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] La commande sqlldr s'est mal deroulee :
+SQL*Loader-500: Unable to open file (PACMAN_OSR_AFFAIRES_06102023.dat)
+SQL*Loader-553: file not found
+SQL*Loader-509: System error: No such file or directory
+SQL*Loader-2026: the load was aborted because SQL Loader cannot continue.
+[30102023-06:50:55][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh]
+[30102023-06:50:55][ERREUR][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] L'intégration du fichier s'est terminée en erreur.
+[30102023-06:50:55][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] Déplacement du fichier dans Erreur.
+[30102023-06:50:55][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh]
+[30102023-06:50:55][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] Copie des données dans les tables définitives...
+[30102023-06:50:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh]
+[30102023-06:50:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] L'intégration du fichier s'est déroulée avec succès. Vérifier la table LOGS.
+[30102023-06:50:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] Déplacement du fichier dans Archive.
+[30102023-06:50:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh]
+[30102023-06:50:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh]
+[30102023-06:50:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] -------------------------------------------------------------------
+[30102023-06:50:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] --- Traitement du fichier (1).txt
+[30102023-06:50:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] -------------------------------------------------------------------
+[30102023-06:50:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] Traitement du fichier...
+[30102023-06:50:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] Chargement du fichier (1).txt en table temporaire...
+[30102023-06:50:56][ERROR][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] La commande sqlldr s'est mal deroulee :
+SQL*Loader-570: Warning: single bad file specification with multiple data files using bad.txt file may get overwritten.
+SQL*Loader-500: Unable to open file (1.dat)
+SQL*Loader-553: file not found
+SQL*Loader-509: System error: No such file or directory
+SQL*Loader-2026: the load was aborted because SQL Loader cannot continue.
+[30102023-06:50:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh]
+[30102023-06:50:56][ERREUR][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] L'intégration du fichier s'est terminée en erreur.
+[30102023-06:50:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] Déplacement du fichier dans Erreur.
+[30102023-06:50:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh]
+[30102023-06:50:56][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] Copie des données dans les tables définitives...
+[30102023-06:50:57][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh]
+[30102023-06:50:57][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] L'intégration du fichier s'est déroulée avec succès. Vérifier la table LOGS.
+[30102023-06:50:57][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] Déplacement du fichier dans Archive.
+[30102023-06:50:57][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh]
+[30102023-06:50:57][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh] ========================== FIN DU SCRIPT ==========================
+[30102023-06:50:57][INFO][h2l1osr1004q.dc.infra-grdf.com][import_PACMAN_OSR.sh]
